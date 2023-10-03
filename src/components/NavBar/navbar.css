@@ -19,13 +19,12 @@
 .navbar {
     background: var(--navbar-bg);
     height: 5rem;
-    width: 100vw;
-    max-width: 75rem;
-    margin: 0 auto;
+    width: 100%;
+    /* make sure it's 100% */
     padding: 1rem 2rem;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     position: sticky;
     top: 0;
     z-index: 3;

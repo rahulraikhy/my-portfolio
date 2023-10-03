@@ -21,10 +21,11 @@ code {
 :root {
   --background-color: #ffffff;
   --text-color: #000000;
+  --introText-color: #808080;
 }
 
 [data-theme="dark"] {
   --background-color: #121212;
   --text-color: #ffffff;
-
+  --introText-color: #E0E0E0;
 }

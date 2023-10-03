@@ -16,6 +16,7 @@
 .introText {
     font-size: 3rem;
     margin-top: 3rem;
+    color: var(--introText-color);
 }
 
 .introName {
