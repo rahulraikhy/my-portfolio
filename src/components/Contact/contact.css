@@ -1,0 +1,103 @@
+/* Contact Page Styles */
+
+#contact {
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+    /* Light grey background for contrast */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contactPageTitle {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #333;
+    /* Dark color for the title */
+}
+
+.contactDescription {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #555;
+    /* Slightly lighter color for the description */
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+}
+
+.contactForm input,
+.contactForm textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    /* Light grey border */
+    font-size: 1rem;
+    transition: border 0.3s;
+    color: #333;
+}
+
+.contactForm input:focus,
+.contactForm textarea:focus {
+    border: 1px solid #007BFF;
+    /* Change border color to blue on focus */
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.1);
+    /* Subtle glow effect */
+}
+
+.submitBtn {
+    /* Text */
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+    /* Sizing & Layout */
+    padding: 0.5rem 1.5rem;
+    display: inline-block;
+
+    /* Colors */
+    background-color: #2C3E50;
+    /* Dark blue shade */
+    color: #EAEDED;
+    /* Light grayish shade for text */
+    border: none;
+
+    /* Border & Rounded Corners */
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    /* Hover & Transition for smooth effect */
+    transition: all 0.3s ease;
+
+    &:hover {
+        background-color: #3498DB;
+        /* Light blue on hover */
+        box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+        transform: translateY(-2px);
+        /* Small move-up effect on hover */
+    }
+
+    &:active {
+        transform: translateY(1px);
+        /* Press down effect on active */
+    }
+
+    &:disabled {
+        background-color: #7F8C8D;
+        /* Gray shade for disabled */
+        cursor: not-allowed;
+    }
+}
